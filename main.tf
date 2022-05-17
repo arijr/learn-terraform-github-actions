@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "ACG-Terraform-Demos-"
+    organization = "REPLACE_ME"
 
     workspaces {
-      name = "demo-github-actions"
+      name = "gh-actions-demo"
     }
   }
 }
